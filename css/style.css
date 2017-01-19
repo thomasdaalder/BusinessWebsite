@@ -1,0 +1,24 @@
+.body{
+	background-image: url("../img/burger2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%
+	height:100%;
+   
+}
+
+.headertext{
+	text-align: left;
+	padding-top: 15%;
+	padding-left: 15%;
+	color: black;
+}
+
+.headertext h1{
+	font-family: helvetica, sans-serif;
+	font-size: 90px;
+}
+
+.btn{
+	
+}
