@@ -1,5 +1,5 @@
 .body{
-	background-image: url("../img/burger2.jpg");
+	background-image: url("../img/burger3.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 100%
@@ -14,11 +14,11 @@
 	color: black;
 }
 
-.headertext h1{
+.headertext {
 	font-family: helvetica, sans-serif;
 	font-size: 90px;
 }
 
 .btn{
-	
+	margin-left: 15.5%;
 }
