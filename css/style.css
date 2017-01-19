@@ -1,3 +1,4 @@
+/*Index*/
 .body{
 	background-image: url("../img/burger3.jpg");
 	background-size: cover;
@@ -21,4 +22,11 @@
 
 .btn{
 	margin-left: 15.5%;
+}
+
+/* Contact page*/
+
+.information {
+	text-align: center;
+
 }
