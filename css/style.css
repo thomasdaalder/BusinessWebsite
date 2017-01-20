@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+/*About page*/
 .timer{width:200px; margin:20px auto; text-align:center; display:block; font-size:50px}
 .timer2{width:200px; margin:20px auto; text-align:center; display:block; font-size:50px}
 .timer3{width:200px; margin:20px auto; text-align:center; display:block; font-size:50px}
@@ -23,8 +23,9 @@ body {
 
 .marginleft {
   margin: 10px;
-=======
-/*Index*/
+}
+
+/*Index page*/
 .body{
 	background-image: url("../img/burger3.jpg");
 	background-size: cover;
@@ -55,5 +56,3 @@ body {
 .information {
 	text-align: center;
 
->>>>>>> contact
-}
