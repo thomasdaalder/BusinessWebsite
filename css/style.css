@@ -1,3 +1,11 @@
+/*General styling*/
+.light h1, h2, h3, p{
+	font-family: 'Lato 800', sans-serif;
+}
+
+
+
+
 /*About page*/
 .timer{width:200px; margin:20px auto; text-align:center; display:block; font-size:50px}
 .timer2{width:200px; margin:20px auto; text-align:center; display:block; font-size:50px}
@@ -5,7 +13,9 @@
 .timer4{width:200px; margin:20px auto; text-align:center; display:block; font-size:50px}
 
 body {
-  background-color: #f5f5f3;
+  	background-color: #f5f5f3;
+ 	font-family: 'Lato 500', sans-serif;
+ 	letter-spacing: .5px;
 }
 
 .greybackground {
@@ -22,7 +32,7 @@ body {
 }
 
 .marginleft {
-  margin: 10px;
+  margin: 0px 0px 0px 20px;
 }
 
 /*Index page*/
@@ -43,7 +53,7 @@ body {
 }
 
 .headertext {
-	font-family: helvetica, sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-size: 90px;
 }
 
@@ -55,4 +65,9 @@ body {
 
 .information {
 	text-align: center;
+}
+/*Order page*/
 
+.margintextorder {
+	margin: 40px 0px 0px 40px;
+}
