@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .timer{width:200px; margin:20px auto; text-align:center; display:block; font-size:50px}
 .timer2{width:200px; margin:20px auto; text-align:center; display:block; font-size:50px}
 .timer3{width:200px; margin:20px auto; text-align:center; display:block; font-size:50px}
@@ -22,4 +23,37 @@ body {
 
 .marginleft {
   margin: 10px;
+=======
+/*Index*/
+.body{
+	background-image: url("../img/burger3.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%
+	height:100%;
+   
+}
+
+.headertext{
+	text-align: left;
+	padding-top: 15%;
+	padding-left: 15%;
+	color: black;
+}
+
+.headertext {
+	font-family: helvetica, sans-serif;
+	font-size: 90px;
+}
+
+.btn{
+	margin-left: 15.5%;
+}
+
+/* Contact page*/
+
+.information {
+	text-align: center;
+
+>>>>>>> contact
 }

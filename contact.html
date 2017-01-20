@@ -7,9 +7,20 @@
       <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
        <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+      <!-- Main css -->
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+
 
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    
+  <style>
+      #map {
+        height: 400px;
+        width: 100%;
+       }
+  </style>
+
     </head>
 
       <!-- Navbar -->
@@ -24,6 +35,35 @@
       </ul>
     </div>
   </nav>
+
+<div class="information">
+  <h1>Contact information</h1>
+    <ol>
+        <p>Email: b.burgers@burgers.com</p>
+        <p>Tel:020 261 2517</p>
+    </ol>
+</div>
+
+<!-- google maps -->
+ 
+ <div id="map"></div>
+    <script>
+      function initMap() {
+        var uluru = {lat: 52.3431438, lng: 4.8291689};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 15,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+
+    <script async defer
+          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB3YBjmbbzzJvYbgd8iujHjW6C9K3GFLNU&callback=initMap">
+    </script>
 
       <!--Import jQuery before materialize.js-->
         <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
