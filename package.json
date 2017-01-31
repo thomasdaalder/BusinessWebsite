@@ -1,0 +1,22 @@
+{
+  "name": "businesswebsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomasdaalder/businesswebsite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thomasdaalder/businesswebsite/issues"
+  },
+  "homepage": "https://github.com/thomasdaalder/businesswebsite#readme",
+  "dependencies": {
+    "express": "^4.14.1"
+  }
+}
